@@ -62,7 +62,7 @@ int Addition(int ino1, int ino2)
     {
         int iAns = 0;
 
-        iAns = ino1 + ino2;           // //Bussiness logic
+        iAns = ino1 + ino2;           // Bussiness logic
 
         return iAns;
     }

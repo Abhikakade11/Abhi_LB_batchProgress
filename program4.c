@@ -48,7 +48,7 @@ step :5 test the program
 int main ()
 
 {
-    int  iValue1 , iValue2 , iResult ;
+    int  iValue1, iValue2, iResult;
     
     printf("Enter 1st Number :\n");
     scanf("%d",&iValue1);
@@ -58,7 +58,7 @@ int main ()
 
     iResult = iValue1 + iValue2;         //Bussiness logic
 
-    printf("%d\n",iResult);
+    printf("%d\n",iResult); 
 
     return 0;
 }

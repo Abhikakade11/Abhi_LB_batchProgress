@@ -43,18 +43,17 @@ step :5 test the program
 //
 ////////////////////////////////////////////////////
 
-
-
 #include<stdio.h>
 
-int Addition(int ino1, int ino2)
-    {
-        int iAns = 0;
+    int Addition(int ino1, int ino2)    //colly
+        {
+            int iAns = 0;
 
-        iAns = ino1 + ino2;           // //Bussiness logic
+            iAns = ino1 + ino2;            // Bussiness logic
 
-        return iAns;
-    }
+            return iAns;
+        }
+
 int main ()
 
 {
@@ -66,7 +65,7 @@ int main ()
     printf("Enter 2nd Number :\n");
     scanf("%d",&iValue2);
 
-    iResult = Addition(iValue1,iValue2);      
+    iResult = Addition(iValue1,iValue2);   //caller     
 
     printf("Addition  is : %d\n",iResult);
 

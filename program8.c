@@ -4,9 +4,7 @@ step :2 write the algoritham
 step :3 decide the programming language
 step :4 write the program
 step :5 test the program
-
 */
-
 //////////////////////////////////////////////////////
 //
 // step :1 Understand the problem statement
@@ -14,7 +12,6 @@ step :5 test the program
 // and we have to perform addition
 //
 /////////////////////////////////////////////////////
-
 
 /////////////////////////////////////////////////////
 //
@@ -30,7 +27,6 @@ step :5 test the program
 */
 /////////////////////////////////////////////////////
 
-
 /////////////////////////////////////////////////////
 //
 //step :3 decide the programming language
@@ -43,10 +39,7 @@ step :5 test the program
 //
 ////////////////////////////////////////////////////
 
-
-
 #include<stdio.h>
-
 
 ////////////////////////////////////////////////////
 //
@@ -62,7 +55,7 @@ int Addition(int ino1, int ino2)
     {
         int iAns = 0;
 
-        iAns = ino1 + ino2;           // //Bussiness logic
+        iAns = ino1 + ino2;           // Bussiness logic
 
         return iAns;
     }

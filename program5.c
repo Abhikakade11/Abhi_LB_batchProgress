@@ -48,7 +48,7 @@ step :5 test the program
 int main ()
 
 {
-    int  iValue1 = 0, iValue2 = 0, iResult =0;
+    int  iValue1 = 0, iValue2 = 0, iResult = 0;
     
     printf("Enter 1st Number :\n");
     scanf("%d",&iValue1);
@@ -56,7 +56,7 @@ int main ()
     printf("Enter 2nd Number :\n");
     scanf("%d",&iValue2);
 
-    iResult = iValue1 + iValue2;         //Bussiness logic
+    iResult = iValue1 + iValue2;         // Bussiness logic
 
     printf("Addition  is : %d\n",iResult);
 
